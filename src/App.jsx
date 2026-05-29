@@ -13,7 +13,7 @@ const App = () => {
   const getWeather = async () => {
     if (!city) return;
 
-    const API_KEY = "6885db611448e4319d62769cbcf64b8a";
+    const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
 
     try {
       setLoading(true);
