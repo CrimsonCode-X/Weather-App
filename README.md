@@ -1,16 +1,39 @@
-# React + Vite
+# 🌦️ Weather App (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern weather application built using **React + Vite** that shows real-time weather data and a 5-day forecast with dynamic weather-based backgrounds.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
+https://your-app-link.vercel.app
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔍 Search weather by city name
+- 🌡️ Real-time temperature, humidity, and conditions
+- 📅 5-day weather forecast
+- 🌄 Dynamic background images based on weather
+- 🎨 Glassmorphism UI design
+- ⚡ Fast and responsive layout
+- ❌ Error handling for invalid cities
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- React.js ⚛️
+- Vite ⚡
+- JavaScript (ES6+)
+- CSS3
+- OpenWeather API 🌍
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/CrimsonCode-X/weather-app.git
